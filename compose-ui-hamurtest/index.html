@@ -1,0 +1,1555 @@
+ <html>
+<head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hamurcu Toolbar title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+ <body class="light-mode">
+<div class="toolbar">
+<div class='toolbar-status-container'>
+    <span class='status toolbar-status'>compose-ui</span>
+    <span class='status toolbar-status'>release</span>
+     </div>
+    <div class="toolbar-buttons">
+        <button onclick="toggleDarkMode()">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+</div>
+
+<div class="content"><details>
+<summary class="cardHeader">Non Issue Compose Functions (40)</summary><div class='cardRed'>
+<div class='card-header' onclick="toggleSection('section-compose-1-s')">
+<span>1. rememberCandidateFontSizesIntProgress</span>
+<i id='section-compose-1-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-1-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status non-restartable-skippable'>Non Skippable</span>
+<span class='status non-restartable-skippable'>Non Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>density</td>
+<td>Density</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>containerDpSize</td>
+<td>DpSize</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>minTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>maxTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>stepGranularityTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-2-s')">
+<span>2. PaparaAnimatedStringBox</span>
+<i id='section-compose-2-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-2-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>minWidth</td>
+<td>Dp = @static 60.dp</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>minHeight</td>
+<td>Dp = @static 20.dp</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>delay</td>
+<td>Long = @static 1000L</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>textColor</td>
+<td>Color = @dynamic colorResource(color.papara_white, $composer, 0)</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>bgColor</td>
+<td>Color = @dynamic colorResource(color.papara_red_badge, $composer, 0)</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-stable'>STABLE</td>
+<td>textList</td>
+<td>ImmutableList&lt;String&gt;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-3-s')">
+<span>3. PaparaAnimatedStringBoxPreview</span>
+<i id='section-compose-3-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-3-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-4-s')">
+<span>4. PaparaAnimatedStringBoxPreview_Custom_Background</span>
+<i id='section-compose-4-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-4-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-5-s')">
+<span>5. PaparaAutoSizeText</span>
+<i id='section-compose-5-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-5-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>text</td>
+<td>String</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>modifier</td>
+<td>Modifier? = @static Companion</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>color</td>
+<td>Color = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>suggestedFontSizes</td>
+<td>ImmutableList&lt;TextUnit&gt;? = @static persistentListOf()</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>suggestedFontSizesStatus</td>
+<td>SuggestedFontSizesStatus? = @static SuggestedFontSizesStatus.UNKNOWN</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-stable'>STABLE</td>
+<td>stepGranularityTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='condition-stable'>STABLE</td>
+<td>minTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='condition-stable'>STABLE</td>
+<td>maxTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontStyle</td>
+<td>FontStyle? = @static null</td>
+</tr>
+<tr>
+<td>10</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontWeight</td>
+<td>FontWeight? = @static null</td>
+</tr>
+<tr>
+<td>11</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontFamily</td>
+<td>FontFamily? = @dynamic PaparaFontFamily</td>
+</tr>
+<tr>
+<td>12</td>
+<td class='condition-stable'>STABLE</td>
+<td>letterSpacing</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>13</td>
+<td class='condition-stable'>STABLE</td>
+<td>textDecoration</td>
+<td>TextDecoration? = @static null</td>
+</tr>
+<tr>
+<td>14</td>
+<td class='condition-stable'>STABLE</td>
+<td>alignment</td>
+<td>Alignment? = @static Companion.Center</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='condition-stable'>STABLE</td>
+<td>overflow</td>
+<td>TextOverflow = @static Companion.Clip</td>
+</tr>
+<tr>
+<td>16</td>
+<td class='condition-stable'>STABLE</td>
+<td>softWrap</td>
+<td>Boolean = @static true</td>
+</tr>
+<tr>
+<td>17</td>
+<td class='condition-stable'>STABLE</td>
+<td>maxLines</td>
+<td>Int = @static 2147483647</td>
+</tr>
+<tr>
+<td>18</td>
+<td class='condition-stable'>STABLE</td>
+<td>minLines</td>
+<td>Int = @static 1</td>
+</tr>
+<tr>
+<td>19</td>
+<td class='condition-stable'>STABLE</td>
+<td>onTextLayout</td>
+<td>Function1&lt;TextLayoutResult, Unit&gt;? = @static { it</td>
+</tr>
+<tr>
+<td>20</td>
+<td class='condition-stable'>STABLE</td>
+<td>style</td>
+<td>TextStyle? = @dynamic LocalTextStyle.&lt;get-current&gt;($composer, 0)</td>
+</tr>
+<tr>
+<td>21</td>
+<td class='condition-stable'>STABLE</td>
+<td>lineSpaceRatio</td>
+<td>Float = @dynamic style.lineHeight.value / style.fontSize.value</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-6-s')">
+<span>6. PaparaAutoSizeText</span>
+<i id='section-compose-6-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-6-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>text</td>
+<td>AnnotatedString</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>modifier</td>
+<td>Modifier? = @static Companion</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>color</td>
+<td>Color = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>suggestedFontSizes</td>
+<td>ImmutableList&lt;TextUnit&gt;? = @static persistentListOf()</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>suggestedFontSizesStatus</td>
+<td>SuggestedFontSizesStatus? = @static SuggestedFontSizesStatus.UNKNOWN</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-stable'>STABLE</td>
+<td>stepGranularityTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='condition-stable'>STABLE</td>
+<td>minTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='condition-stable'>STABLE</td>
+<td>maxTextSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontStyle</td>
+<td>FontStyle? = @static null</td>
+</tr>
+<tr>
+<td>10</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontWeight</td>
+<td>FontWeight? = @static null</td>
+</tr>
+<tr>
+<td>11</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontFamily</td>
+<td>FontFamily? = @dynamic PaparaFontFamily</td>
+</tr>
+<tr>
+<td>12</td>
+<td class='condition-stable'>STABLE</td>
+<td>letterSpacing</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>13</td>
+<td class='condition-stable'>STABLE</td>
+<td>textDecoration</td>
+<td>TextDecoration? = @static null</td>
+</tr>
+<tr>
+<td>14</td>
+<td class='condition-stable'>STABLE</td>
+<td>alignment</td>
+<td>Alignment? = @static Companion.Center</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='condition-stable'>STABLE</td>
+<td>overflow</td>
+<td>TextOverflow = @static Companion.Clip</td>
+</tr>
+<tr>
+<td>16</td>
+<td class='condition-stable'>STABLE</td>
+<td>softWrap</td>
+<td>Boolean = @static true</td>
+</tr>
+<tr>
+<td>17</td>
+<td class='condition-stable'>STABLE</td>
+<td>maxLines</td>
+<td>Int = @static 2147483647</td>
+</tr>
+<tr>
+<td>18</td>
+<td class='condition-stable'>STABLE</td>
+<td>minLines</td>
+<td>Int = @static 1</td>
+</tr>
+<tr>
+<td>19</td>
+<td class='condition-stable'>STABLE</td>
+<td>onTextLayout</td>
+<td>Function1&lt;TextLayoutResult, Unit&gt;? = @static { it</td>
+</tr>
+<tr>
+<td>20</td>
+<td class='condition-stable'>STABLE</td>
+<td>style</td>
+<td>TextStyle? = @dynamic LocalTextStyle.&lt;get-current&gt;($composer, 0)</td>
+</tr>
+<tr>
+<td>21</td>
+<td class='condition-stable'>STABLE</td>
+<td>lineSpacingRatio</td>
+<td>Float = @dynamic style.lineHeight.value / style.fontSize.value</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-7-s')">
+<span>7. PaparaAutoSizeText_Preview_Default</span>
+<i id='section-compose-7-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-7-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-8-s')">
+<span>8. PaparaAutoSizeText_Preview_Bold</span>
+<i id='section-compose-8-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-8-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-9-s')">
+<span>9. PaparaAutoSizeText_Preview_Italic</span>
+<i id='section-compose-9-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-9-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-10-s')">
+<span>10. PaparaAutoSizeText_Preview_Large</span>
+<i id='section-compose-10-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-10-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-11-s')">
+<span>11. PaparaAutoSizeText_Preview_Colored</span>
+<i id='section-compose-11-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-11-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-12-s')">
+<span>12. PaparaAutoSizeText_Preview_MultiLine</span>
+<i id='section-compose-12-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-12-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-13-s')">
+<span>13. PaparaAutoSizeText_Preview_AnnotatedString</span>
+<i id='section-compose-13-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-13-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-14-s')">
+<span>14. PaparaAutoSizeText_Preview_CustomStyle</span>
+<i id='section-compose-14-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-14-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-15-s')">
+<span>15. PaparaAutoSizeText_Preview_CustomLetterSpacing</span>
+<i id='section-compose-15-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-15-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-16-s')">
+<span>16. PaparaAutoSizeText_Preview_CustomTextAlign</span>
+<i id='section-compose-16-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-16-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-17-s')">
+<span>17. PaparaAutoSizeText_Preview_CustomMinLines</span>
+<i id='section-compose-17-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-17-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-18-s')">
+<span>18. PaparaLineChart</span>
+<i id='section-compose-18-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-18-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>modifier</td>
+<td>Modifier? = @static Companion</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>chartModel</td>
+<td>PaparaLineChartModel</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>onMoveHighlightPoint</td>
+<td>Function1&lt;@[ParameterName(name = 'point')] PaparaLinePoint, Unit&gt;</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>onDrag</td>
+<td>Function1&lt;@[ParameterName(name = 'isDragging')] Boolean, Unit&gt;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-19-s')">
+<span>19. PreviewPpLineChartHelperDefaultCompose</span>
+<i id='section-compose-19-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-19-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-20-s')">
+<span>20. PreviewPpLineChartHelperRangeCompose</span>
+<i id='section-compose-20-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-20-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-21-s')">
+<span>21. PaparaPieChart</span>
+<i id='section-compose-21-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-21-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>modifier</td>
+<td>Modifier? = @static Companion</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>dataList</td>
+<td>PersistentList&lt;PaparaPieChartModel&gt;</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>holeRatio</td>
+<td>Float = @static 0.5f</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>selectedPieScaleRatio</td>
+<td>Float = @static 1.05f</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>centerHoleColor</td>
+<td>Color = @static Companion.DarkGray</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-stable'>STABLE</td>
+<td>minAngle</td>
+<td>Float = @static 15.0f</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='condition-stable'>STABLE</td>
+<td>isShowCategoryList</td>
+<td>Boolean = @static true</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='condition-stable'>STABLE</td>
+<td>categoryListItemTextColor</td>
+<td>Color = @static Companion.DarkGray</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='condition-stable'>STABLE</td>
+<td>centerContent</td>
+<td>Function2&lt;Composer, Int, Unit&gt;</td>
+</tr>
+<tr>
+<td>10</td>
+<td class='condition-stable'>STABLE</td>
+<td>emptyContent</td>
+<td>Function2&lt;Composer, Int, Unit&gt;? = @static null</td>
+</tr>
+<tr>
+<td>11</td>
+<td class='condition-stable'>STABLE</td>
+<td>onClickCenterCircle</td>
+<td>Function0&lt;Unit&gt;</td>
+</tr>
+<tr>
+<td>12</td>
+<td class='condition-stable'>STABLE</td>
+<td>onClickPie</td>
+<td>Function1&lt;PaparaPieChartModel, Unit&gt;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-22-s')">
+<span>22. PaparaPieChartSelectedPreview</span>
+<i id='section-compose-22-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-22-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-23-s')">
+<span>23. PaparaPieChartUnSelectedPreview</span>
+<i id='section-compose-23-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-23-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-24-s')">
+<span>24. PaparaPieChartNoDataPreview</span>
+<i id='section-compose-24-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-24-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-25-s')">
+<span>25. PaparaText</span>
+<i id='section-compose-25-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-25-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>modifier</td>
+<td>Modifier? = @static Companion</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>text</td>
+<td>String? = @static null</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>annotatedString</td>
+<td>AnnotatedString? = @static null</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>color</td>
+<td>Color = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontSize</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontStyle</td>
+<td>FontStyle? = @static null</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontWeight</td>
+<td>FontWeight? = @static Companion.Normal</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='condition-stable'>STABLE</td>
+<td>fontFamily</td>
+<td>FontFamily? = @dynamic PaparaFontFamily</td>
+</tr>
+<tr>
+<td>9</td>
+<td class='condition-stable'>STABLE</td>
+<td>letterSpacing</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>10</td>
+<td class='condition-stable'>STABLE</td>
+<td>textDecoration</td>
+<td>TextDecoration? = @static null</td>
+</tr>
+<tr>
+<td>11</td>
+<td class='condition-stable'>STABLE</td>
+<td>textAlign</td>
+<td>TextAlign? = @static null</td>
+</tr>
+<tr>
+<td>12</td>
+<td class='condition-stable'>STABLE</td>
+<td>lineHeight</td>
+<td>TextUnit = @static Companion.Unspecified</td>
+</tr>
+<tr>
+<td>13</td>
+<td class='condition-stable'>STABLE</td>
+<td>overflow</td>
+<td>TextOverflow = @static Companion.Clip</td>
+</tr>
+<tr>
+<td>14</td>
+<td class='condition-stable'>STABLE</td>
+<td>softWrap</td>
+<td>Boolean = @static true</td>
+</tr>
+<tr>
+<td>15</td>
+<td class='condition-stable'>STABLE</td>
+<td>singleLine</td>
+<td>Boolean = @static false</td>
+</tr>
+<tr>
+<td>16</td>
+<td class='condition-stable'>STABLE</td>
+<td>maxLines</td>
+<td>Int = @dynamic if (singleLine) 1 else 2147483647</td>
+</tr>
+<tr>
+<td>17</td>
+<td class='condition-stable'>STABLE</td>
+<td>minLines</td>
+<td>Int = @static 1</td>
+</tr>
+<tr>
+<td>18</td>
+<td class='condition-stable'>STABLE</td>
+<td>onTextLayout</td>
+<td>Function1&lt;TextLayoutResult, Unit&gt;? = @static { it</td>
+</tr>
+<tr>
+<td>19</td>
+<td class='condition-stable'>STABLE</td>
+<td>style</td>
+<td>TextStyle? = @dynamic LocalTextStyle.&lt;get-current&gt;($composer, 0)</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-26-s')">
+<span>26. PaparaText_Preview_Default</span>
+<i id='section-compose-26-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-26-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-27-s')">
+<span>27. PaparaText_Preview_Bold</span>
+<i id='section-compose-27-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-27-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-28-s')">
+<span>28. PaparaText_Preview_Italic</span>
+<i id='section-compose-28-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-28-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-29-s')">
+<span>29. PaparaText_Preview_Large</span>
+<i id='section-compose-29-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-29-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-30-s')">
+<span>30. PaparaText_Preview_Colored</span>
+<i id='section-compose-30-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-30-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-31-s')">
+<span>31. PaparaText_Preview_MultiLine</span>
+<i id='section-compose-31-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-31-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-32-s')">
+<span>32. PaparaText_Preview_SingleLine</span>
+<i id='section-compose-32-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-32-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-33-s')">
+<span>33. PaparaText_Preview_AnnotatedString</span>
+<i id='section-compose-33-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-33-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-34-s')">
+<span>34. PaparaText_Preview_CustomStyle</span>
+<i id='section-compose-34-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-34-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-35-s')">
+<span>35. PaparaText_Preview_CustomLetterSpacing</span>
+<i id='section-compose-35-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-35-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-36-s')">
+<span>36. PaparaText_Preview_CustomLineHeight</span>
+<i id='section-compose-36-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-36-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-37-s')">
+<span>37. PaparaText_Preview_CustomTextAlign</span>
+<i id='section-compose-37-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-37-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-38-s')">
+<span>38. PaparaText_Preview_CustomOverflow</span>
+<i id='section-compose-38-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-38-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-39-s')">
+<span>39. PaparaText_Preview_CustomSoftWrap</span>
+<i id='section-compose-39-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-39-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-compose-40-s')">
+<span>40. PaparaText_Preview_CustomMinLines</span>
+<i id='section-compose-40-s-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-40-s' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+</div>
+</div>
+</details><details>
+<summary class="cardHeader">With Issue Compose Functions (1)</summary><div class='cardRed'>
+<div class='card-header' onclick="toggleSection('section-compose-1-us')">
+<span>1. PaparaTextText</span>
+<i id='section-compose-1-us-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-compose-1-us' class='collapsed-content'>
+<div class='status-container'>
+<span class='status non-restartable-skippable'>Non Skippable</span>
+<span class='status restartable-skippable'>Restartable</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Stability</th><th>Parameter</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>minWidth</td>
+<td>Dp = @static 60.dp</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>minHeight</td>
+<td>Dp = @static 20.dp</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>delay</td>
+<td>Long = @static 1000L</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>textColor</td>
+<td>Color = @dynamic colorResource(color.papara_white, $composer, 0)</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>bgColor</td>
+<td>Color = @dynamic colorResource(color.papara_red_badge, $composer, 0)</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>textList</td>
+<td>List&lt;String&gt;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</details><details>
+  <summary class="cardHeader">Classes (9)</summary><div class='cardRed'>
+<div class='card-header' onclick="toggleSection('section-class-1')">
+<span>1. PaparaLineChartHelperDefaultImpl</span>
+<i id='section-class-1-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-1' class='collapsed-content'>
+<div class='status-container'>
+<span class='status non-restartable-skippable'>UNSTABLE</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>var chartKey</td>
+<td>String</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>var hasRefresh</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>var internalChartWith</td>
+<td>Float</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>var internalChartDta</td>
+<td>List&lt;PaparaLinePoint&gt;</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>var internalChartDataMax</td>
+<td>PaparaLinePoint?</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>var internalChartDataMin</td>
+<td>PaparaLinePoint?</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardRed'>
+<div class='card-header' onclick="toggleSection('section-class-2')">
+<span>2. PaparaLineChartHelperRangeImpl</span>
+<i id='section-class-2-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-2' class='collapsed-content'>
+<div class='status-container'>
+<span class='status non-restartable-skippable'>UNSTABLE</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val indexRange</td>
+<td>PaparaLineChartIndexRange</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>var chartKey</td>
+<td>String</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>var hasRefresh</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>var internalChartWith</td>
+<td>Float</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>var internalChartDta</td>
+<td>List&lt;PaparaLinePoint&gt;</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>var internalChartDataMax</td>
+<td>PaparaLinePoint?</td>
+</tr>
+<tr>
+<td>7</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>var internalChartDataMin</td>
+<td>PaparaLinePoint?</td>
+</tr>
+<tr>
+<td>8</td>
+<td class='condition-stable'>STABLE</td>
+<td>var increaseValueAverage</td>
+<td>Long</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardRed'>
+<div class='card-header' onclick="toggleSection('section-class-3')">
+<span>3. PaparaLineHighlightedResult</span>
+<i id='section-class-3-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-3' class='collapsed-content'>
+<div class='status-container'>
+<span class='status non-restartable-skippable'>UNSTABLE</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val position</td>
+<td>PaparaPosition</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>val point</td>
+<td>PaparaLinePoint?</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardRed'>
+<div class='card-header' onclick="toggleSection('section-class-4')">
+<span>4. PaparaLinePoint</span>
+<i id='section-class-4-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-4' class='collapsed-content'>
+<div class='status-container'>
+<span class='status non-restartable-skippable'>UNSTABLE</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val indexValue</td>
+<td>Long</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>val value</td>
+<td>BigDecimal</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>val valueString</td>
+<td>String</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>val data</td>
+<td>PaparaLinePointData</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-class-5')">
+<span>5. PaparaLineChartIndexRange</span>
+<i id='section-class-5-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-5' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Stable</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val minIndexValue</td>
+<td>Long</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>val maxIndexValue</td>
+<td>Long</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-class-6')">
+<span>6. PaparaLineChartModel</span>
+<i id='section-class-6-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-6' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Stable</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val chartKey</td>
+<td>String</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>val chartData</td>
+<td>List&lt;PaparaLinePoint&gt;</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>val lineColorId</td>
+<td>Int</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>val lineHighlightColorId</td>
+<td>Int</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-stable'>STABLE</td>
+<td>val pathBrushColorId</td>
+<td>Int?</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-stable'>STABLE</td>
+<td>val hasHorizontalDashedLine</td>
+<td>Boolean</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-class-7')">
+<span>7. PaparaLinePointData</span>
+<i id='section-class-7-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-7' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Stable</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val dateString</td>
+<td>String</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>val difference</td>
+<td>String</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-stable'>STABLE</td>
+<td>val differencePercentage</td>
+<td>String</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>val differenceColorResId</td>
+<td>Int?</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-class-8')">
+<span>8. PaparaPosition</span>
+<i id='section-class-8-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-8' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Stable</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val x</td>
+<td>Float</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>val y</td>
+<td>Float</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-class-9')">
+<span>9. PaparaPieChartModel</span>
+<i id='section-class-9-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-9' class='collapsed-content'>
+<div class='status-container'>
+<span class='status restartable-skippable'>Stable</span>
+<span class='status non-restartable-skippable'>Runtime stability is missing</span>
+</div>
+<div class='table-container'>
+<table>
+<tr><th>No.</th><th>Status</th><th>Field</th><th>Type</th></tr>
+<tr>
+<td>1</td>
+<td class='condition-stable'>STABLE</td>
+<td>val id</td>
+<td>Long</td>
+</tr>
+<tr>
+<td>2</td>
+<td class='condition-stable'>STABLE</td>
+<td>val name</td>
+<td>String</td>
+</tr>
+<tr>
+<td>3</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>val value</td>
+<td>BigDecimal</td>
+</tr>
+<tr>
+<td>4</td>
+<td class='condition-stable'>STABLE</td>
+<td>val color</td>
+<td>String</td>
+</tr>
+<tr>
+<td>5</td>
+<td class='condition-unstable'>UNSTABLE</td>
+<td>val bitmap</td>
+<td>Bitmap?</td>
+</tr>
+<tr>
+<td>6</td>
+<td class='condition-stable'>STABLE</td>
+<td>val isTapped</td>
+<td>Boolean</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</details><details>
+  <summary class="cardHeader">Statistics</summary><div class='cardGreen'>
+<div class='card-header' onclick="toggleSection('section-class-overAll')">
+<span>Overall</span>
+<i id='section-class-overAll-icon' class='collapse-icon fas fa-chevron-down'></i>
+</div>
+<div id='section-class-overAll' class='collapsed-content'>
+<div class='table-statistic-container'>
+<table>
+<tr><th>No.</th><th>Property</th><th>Value</th></tr>
+<tr><td>1</td><td>Skippable Composables</td><td>47</td></tr>
+<tr><td>2</td><td>Restartable Composables</td><td>60</td></tr>
+<tr><td>3</td><td>Readonly Composables</td><td>0</td></tr>
+<tr><td>4</td><td>Total Composables</td><td>61</td></tr>
+<tr><td>5</td><td>Restart Groups</td><td>60</td></tr>
+<tr><td>6</td><td>Total Groups</td><td>73</td></tr>
+<tr><td>7</td><td>Static Arguments</td><td>103</td></tr>
+<tr><td>8</td><td>Certain Arguments</td><td>39</td></tr>
+<tr><td>9</td><td>Known Stable Arguments</td><td>787</td></tr>
+<tr><td>10</td><td>Known Unstable Arguments</td><td>4</td></tr>
+<tr><td>11</td><td>Unknown Stable Arguments</td><td>3</td></tr>
+<tr><td>12</td><td>Total Arguments</td><td>794</td></tr>
+<tr><td>13</td><td>Marked Stable Classes</td><td>2</td></tr>
+<tr><td>14</td><td>Inferred Stable Classes</td><td>3</td></tr>
+<tr><td>15</td><td>Inferred Unstable Classes</td><td>4</td></tr>
+<tr><td>16</td><td>Inferred Uncertain Classes</td><td>0</td></tr>
+<tr><td>17</td><td>Effectively Stable Classes</td><td>5</td></tr>
+<tr><td>18</td><td>Total Classes</td><td>9</td></tr>
+<tr><td>19</td><td>Memoized Lambdas</td><td>28</td></tr>
+<tr><td>20</td><td>Singleton Lambdas</td><td>15</td></tr>
+<tr><td>21</td><td>Singleton Composable Lambdas</td><td>5</td></tr>
+<tr><td>22</td><td>Composable Lambdas</td><td>10</td></tr>
+<tr><td>23</td><td>Total Lambdas</td><td>35</td></tr>
+</table>
+</div>
+</div>
+</div>
+</details> </div>
+</body>
+ </html>
